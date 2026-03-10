@@ -498,7 +498,7 @@ nav a:hover::after {
 }
 
 /* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 1110px) {
   .desktop-menu {
     display: none !important;
   }
@@ -1091,7 +1091,7 @@ a:hover svg {
   min-width: 0 !important;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1110px) {
   .desktop-menu {
     display: none !important;
   }

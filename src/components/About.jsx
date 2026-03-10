@@ -38,7 +38,7 @@ const RunningCode = () => {
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            style={{ 
+            style={{
               color: index === lines.length - 1 ? "#38bdf8" : "#94a3b8",
               marginBottom: "8px",
               fontFamily: "'Fira Code', monospace",
@@ -79,8 +79,8 @@ export default function About() {
               Engineering <span style={{ color: "#38bdf8" }}>Seamless</span> Experiences
             </h1>
             <p style={description}>
-              I’m <strong>Sasi Kumar M</strong>, a Full Stack Developer with a passion for building 
-              high-performance web applications. I specialize in architecting scalable backend APIs 
+              I’m <strong>Sasi Kumar M</strong>, a Full Stack Developer with a passion for building
+              high-performance web applications. I specialize in architecting scalable backend APIs
               and crafting pixel-perfect frontend interfaces.
             </p>
 
@@ -105,10 +105,14 @@ export default function About() {
           <h2 style={sectionTitle}>Core Development Focus</h2>
           <div style={skillsGrid}>
             {[
-              { title: "Frontend Architecture", desc: "React, Next.js, Angular, Tailwind CSS, Responsive UI", icon: "🎨" },
-              { title: "Backend Scalability", desc: "Node.js, Express, FastAPI, Python, NestJS", icon: "⚙️" },
-              { title: "Cloud & Databases", desc: "AWS, Docker, PostgreSQL, MongoDB, Redis", icon: "☁️" },
-              { title: "API Excellence", desc: "REST, GraphQL, WebSockets, OAuth2, JWT", icon: "🔌" }
+              { title: "Frontend Architecture", desc: "React.js, Next.js, Angular, Tailwind CSS, HTML, CSS, JavaScript (ES6+)", icon: "🎨" },
+              { title: "Backend & APIs", desc: "Python, FastAPI, REST API Development", icon: "⚙️" },
+              { title: "State Management", desc: "Redux, Context API", icon: "🧠" },
+              { title: "Data Systems", desc: "MySQL, PostgreSQL, MongoDB", icon: "💾" },
+              { title: "Quality Assurance", desc: "Jest, React Testing Library", icon: "🧪" },
+              { title: "Marketing & Analytics", desc: "Google Analytics, Google Tag Manager", icon: "📊" },
+              { title: "Tools & Workflow", desc: "Git, GitHub, Jira", icon: "🛠️" },
+              { title: "System Design", desc: "Micro-frontends, Component-Based Design", icon: "🏗️" }
             ].map((skill, index) => (
               <motion.div
                 key={index}
@@ -125,7 +129,7 @@ export default function About() {
         </div>
 
         <div style={quoteSection}>
-          <motion.div 
+          <motion.div
             style={quoteCard}
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -133,7 +137,7 @@ export default function About() {
           >
             <div style={quoteIcon}>“</div>
             <p style={quoteText}>
-              Innovation happens when logic meets creativity to deliver a seamless digital experience. 
+              Innovation happens when logic meets creativity to deliver a seamless digital experience.
               My goal is to engineer applications that are not just high-performing, but user-centric and maintainable.
             </p>
             <div style={quoteAuthor}>— Sasi Kumar M</div>

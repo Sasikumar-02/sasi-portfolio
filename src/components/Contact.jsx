@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -58,7 +59,7 @@ export default function Contact() {
       <Particles
         init={particlesInit}
         options={{
-          background: { color: "#0f172a" },
+          background: { color: "transparent" },
           particles: {
             number: { value: 60 },
             size: { value: 2 },
@@ -115,7 +116,7 @@ export default function Contact() {
         {/* SOCIAL ICONS */}
         <div style={iconContainer}>
           <a
-            href="https://github.com/BalaSubraManiyan-sr"
+            href="https://github.com/Sasikumar-02"
             target="_blank"
             rel="noreferrer"
             title="GitHub Profile"
@@ -124,12 +125,22 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/bala-subra-maniyan-s-r/"
+            href="https://www.linkedin.com/in/sasi-kumar-m-077212210/"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn Profile"
           >
             <FaLinkedin size={28} />
+          </a>
+
+          <a
+            href="https://leetcode.com/u/sasi_kumar_m/"
+            target="_blank"
+            rel="noreferrer"
+            title="LeetCode Profile"
+            style={{ color: "#f89f1b" }}
+          >
+            <SiLeetcode size={28} />
           </a>
         </div>
 
@@ -137,7 +148,7 @@ export default function Contact() {
 
       {/* FLOATING WHATSAPP */}
       <a
-        href="https://wa.me/918925156100?text=Hello%20Sasi%20Kumar%20M%2C%20I%20visited%20your%20developer%20portfolio%20and%20would%20like%20to%20connect%20regarding%20software%20development%20opportunities."
+        href="https://wa.me/919789113517?text=Hello%20Sasi%20Kumar%20M%2C%20I%20visited%20your%20developer%20portfolio%20and%20would%20like%20to%20connect%20regarding%20software%20development%20opportunities."
         target="_blank"
         rel="noreferrer"
         style={whatsappBubble}
@@ -167,7 +178,7 @@ const pageContainer = {
   minHeight: "100vh",
   position: "relative",
   overflow: "hidden",
-  background: "#0f172a",
+  background: "transparent",
   color: "white"
 };
 

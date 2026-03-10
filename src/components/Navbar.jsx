@@ -104,15 +104,17 @@ export default function Navbar() {
 const navStyle = {
   position: "fixed",
   top: 0,
-  width: "100%",
-  padding: "clamp(10px, 2vh, 20px) clamp(10px, 2vw, 20px)",
+  left: 0,
+  right: 0,
+  padding: "clamp(10px, 2vh, 20px) 2%",
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
   background: "rgba(15, 23, 42, 0.7)",
   backdropFilter: "blur(12px)",
   zIndex: 1000,
-  borderBottom: "1px solid rgba(255, 255, 255, 0.05)"
+  borderBottom: "1px solid rgba(255, 255, 255, 0.05)",
+  boxSizing: "border-box"
 };
 
 const logoWrapper = {
@@ -154,7 +156,7 @@ const logoStyle = {
 
 const menuStyle = {
   display: "flex",
-  gap: "30px",
+  gap: "20px",
   fontSize: "16px"
 };
 

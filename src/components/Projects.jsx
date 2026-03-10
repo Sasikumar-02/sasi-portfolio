@@ -13,6 +13,19 @@ export default function Projects() {
 
   const projects = [
     {
+      title: "SPPL – Online Betting Platform",
+      domain: "Digital Sports & Betting",
+      image: "/sppl.png",
+      points: [
+        "Developed a mobile-responsive sports, lottery, and horse racing betting platform to deliver a seamless experience across devices.",
+        "Engineered interactive features with real-time odds updates and live video streaming, enhancing user engagement and platform responsiveness.",
+        "Integrated secure REST APIs for live event data and betting transactions in partnership with backend teams.",
+        "Implemented Google Analytics to track user activity and behavior patterns, supporting data-driven product improvements.",
+        "Proactively resolved security vulnerabilities identified during VAPT, strengthening application security and compliance.",
+        "Collaborated in an Agile environment using JIRA tickets and user stories to deliver features within sprint timelines."
+      ]
+    },
+    {
       title: "APSS – Aircraft Protection Security Services",
       domain: "Aviation Security Management",
       image: "/apss.jpg",
@@ -232,7 +245,7 @@ export default function Projects() {
 const pageContainer = {
   paddingTop: "120px",
   padding: "120px 40px 40px 40px",
-  background: "#0f172a",
+  background: "transparent",
   color: "white",
   minHeight: "100vh"
 };

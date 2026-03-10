@@ -16,14 +16,16 @@ import Approach from "./components/Approach";
 import Contact from "./components/Contact";
 
 /* ROUTE BACKGROUNDS */
+const unifiedBackground = "linear-gradient(135deg, #0f172a, #111827, #0f172a)";
+
 const backgrounds = {
-  "/": "linear-gradient(135deg, #0f172a, #1e293b)",
-  "/about": "linear-gradient(135deg, #1e3a8a, #312e81)",
-  "/projects": "linear-gradient(135deg, #0f2027, #203a43, #2c5364)",
-  "/experience": "linear-gradient(135deg, #0f0c29, #302b63)",
-  "/technical-showcase": "linear-gradient(135deg, #0f172a, #111827)",
-  "/approach": "linear-gradient(135deg, #141e30, #243b55)",
-  "/contact": "linear-gradient(135deg, #0f172a, #134e4a)"
+  "/": unifiedBackground,
+  "/about": unifiedBackground,
+  "/projects": unifiedBackground,
+  "/experience": unifiedBackground,
+  "/technical-showcase": unifiedBackground,
+  "/approach": unifiedBackground,
+  "/contact": unifiedBackground
 };
 
 /* LOADER */

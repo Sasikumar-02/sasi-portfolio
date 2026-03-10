@@ -36,7 +36,7 @@ export default function Experience() {
       <div style={timelineContainer}>
 
         {/* INTERN CARD */}
-        <motion.div
+        <div
           className="glass-card"
           style={card}
           initial={{ opacity: 0, x: -20 }}
@@ -51,7 +51,7 @@ export default function Experience() {
           />
 
           <div>
-            <h2 style={{ ...roleTitle, color: "#38bdf8" }}>Software Developer Intern</h2>
+            <h2 style={{ ...roleTitle, color: "#38bdf8" }}>Frontend Developer Intern</h2>
             <h3 style={company}>Mindgraph Technologies PVT LTD</h3>
             <p style={duration}>Dec 2023 – Jun 2024</p>
 
@@ -62,13 +62,13 @@ export default function Experience() {
               <li>Actively participated in sprints, ensuring timely delivery of high-quality code.</li>
             </ul>
           </div>
-        </motion.div>
+        </div>
 
         {/* VERTICAL TIMELINE LINE */}
         <div style={verticalLine}></div>
 
         {/* FULL TIME CARD */}
-        <motion.div
+        <div
           className="glass-card"
           style={card}
           initial={{ opacity: 0, x: 20 }}
@@ -83,20 +83,23 @@ export default function Experience() {
           />
 
           <div>
-            <h2 style={{ ...roleTitle, color: "#8b5cf6" }}>Full Stack Developer</h2>
+            <h2 style={{ ...roleTitle, color: "#8b5cf6" }}>Frontend Developer</h2>
             <h3 style={company}>Mindgraph Technologies PVT LTD</h3>
             <p style={duration}>Jul 2024 – Present</p>
 
             <ul style={list} className="experience-list">
-              <li>Architecting modern, scalable web applications using Next.js and React.</li>
-              <li>Developing complex microservices and backend systems using FastAPI and Python.</li>
-              <li>Managing high-traffic database environments in MySQL and PostgreSQL.</li>
-              <li>Integrating third-party APIs and implementing secure authentication (OAuth2/JWT).</li>
-              <li>Mentoring interns and establishing high standards for code quality and testing.</li>
-              <li>Leading cross-functional teams to deliver production-ready software solutions.</li>
+              <li>Engineered dynamic UI components using React.js, Next.js (SSR/SSG), Angular, Redux, and Tailwind CSS, reducing page load times by up to 40% through code splitting and caching strategies.</li>
+              <li>Integrated Google Analytics and Google Tag Manager to track user behavior and enable data-driven product decisions.</li>
+              <li>Strengthened application security by identifying and resolving VAPT vulnerabilities, implementing secure authentication, improving HTTP security headers, and mitigating OWASP risks.</li>
+              <li>Architected secure backend services with Python and FastAPI, delivering scalable REST APIs and ensuring seamless frontend-backend communication.</li>
+              <li>Learned micro-frontend architecture, enabling independent deployments, faster builds, and boosted maintainability.</li>
+              <li>Streamlined database performance across MySQL, PostgreSQL, and MongoDB through indexing and efficient query design.</li>
+              <li>Enhanced application stability by leveraging Redux and Context API to minimize unnecessary re-renders.</li>
+              <li>Collaborated with product managers, designers, and backend engineers to deliver production-ready features aligned with business goals.</li>
+              <li>Elevated code quality by introducing unit and integration testing with Jest and React Testing Library, reducing production defects and improving release confidence.</li>
             </ul>
           </div>
-        </motion.div>
+        </div>
 
       </div>
     </div>
@@ -109,16 +112,17 @@ const pageContainer = {
   paddingTop: "120px",
   padding: "120px 40px",
   minHeight: "100vh",
-  background: "#0f172a",
+  background: "transparent",
   color: "white"
 };
 
 const mainTitle = {
   fontSize: "42px",
-  marginBottom: "10px",
+  marginBottom: "20px",
   textAlign: "center",
   color: "white",
-  fontWeight: "bold"
+  fontWeight: "bold",
+  paddingBottom: "20px"
 };
 
 const timelineContainer = {
