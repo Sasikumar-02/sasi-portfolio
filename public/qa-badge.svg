@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="60" fill="url(#gw)"/>
+  <text x="128" y="160" font-family="Arial, sans-serif" font-weight="bold" font-size="110" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">QA</text>
+  <circle cx="200" cy="200" r="35" fill="#22c55e" stroke="#ffffff" stroke-width="6"/>
+  <path d="M 185 200 L 195 210 L 215 185" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
